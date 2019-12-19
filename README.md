@@ -10,7 +10,7 @@ Become more comfortable with HTML and CSS to design and style webpages.
 Learn to use SCSS to write more complex stylesheets for your webpages.
 Getting Started
 Your First Webpage
-<!-- Download the distro code for this project from https://cdn.cs50.net/web/2019/x/projects/0/project0.zip and unzip project0.zip, which should yield a directory called project0. -->
+Download the distro code for this project from https://cdn.cs50.net/web/2019/x/projects/0/project0.zip and unzip project0.zip, which should yield a directory called project0.
 
 Then, in a terminal window (located in /Applications/Utilities on Mac or by typing cmd in the Windows task bar), move to the directory where you extracted project0 (recall that the cd command can change your current directory), and run
 
@@ -20,7 +20,7 @@ to enter the project directory. Now, run
 touch index.html
 to create a new index.html file in your repository. Open the file with your favorite text editor: popular choices include Atom, Sublime Text, and VS Code. Then, paste in the following contents:
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>My Webpage</title>
@@ -28,7 +28,7 @@ to create a new index.html file in your repository. Open the file with your favo
     <body>
         Hello, world!
     </body>
-</html> -->
+</html>
 Then, save your index.html file.
 
 Requirements
@@ -49,8 +49,8 @@ Visit this link, log in with your GitHub account, and click Authorize cs50. Then
 Install Git and, optionally, install submit50.
 If you’ve installed submit50, execute
 submit50 web50/projects/2019/x/0
-<!-- Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, where USERNAME is your GitHub username, on a branch called web50/projects/2019/x/0. -->
+Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, where USERNAME is your GitHub username, on a branch called web50/projects/2019/x/0.
 
 Record a 1- to 5-minute screencast in which you demonstrate your app’s functionality and/or walk viewers through your code. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else.
 Submit this form.
-<!-- You can then go to https://cs50.me/cs50w to view your current progress! -->
+You can then go to https://cs50.me/cs50w to view your current progress!

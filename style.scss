@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+}
+
+$color: green;
+
+// main styling start
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+
+}
+
+%border {
+    border: 3px solid $color;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.nav-bar li {
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-bar li a:hover {
+    @extend %border;
+    color: $color;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+p {
+    padding: 10px;
+}
+
+// main styling end
+
+// Start of Skills styling
+
+.skill-table {
+    padding: 15px;
+    font-size: 25px;
+    width: 100%;
+    
+}
+
+.skill-table th {
+    text-align: center;
+    padding: 10px;
+}
+
+.skill-table td {
+    text-align: center;
+    padding: 20px;
+    border: 2.5px solid $color;
+}
+
+// Skills page styling end
+
+// Social page styling start
+
+.box-part {
+    padding: 10px;
+}
+
+.box-part a:hover {
+    color: $color;
+}
+
+.fa {
+    color: $color;
+}
+
+// Social page styling end
+
+// Documentation styling start
+
+.container li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    @extend %border;
+    border-radius: 10px;
+}

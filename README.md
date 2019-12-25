@@ -2,7 +2,7 @@
 
 Web Programming with Python and JavaScript
 
-__________________________________________________________________________________________________
+---
 
 Project 0: Homepage
 Objectives
@@ -54,3 +54,12 @@ Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, wh
 Record a 1- to 5-minute screencast in which you demonstrate your app’s functionality and/or walk viewers through your code. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else.
 Submit this form.
 You can then go to https://cs50.me/cs50w to view your current progress!
+
+
+
+What did I use for the project?
+
+-For the main styling of the Site I used "Flexbox" for the layout.
+-In the "Skills" page theres a "table" with 2 columns and 3 rows to show some of the skills I have.
+-In the "Social" page I made use of Bootstrap4 components along with fontawesome to create a social Icon layout.
+-And the "Documentation" page is only "flexbox" with a variable that I create with Sass for border and color.
